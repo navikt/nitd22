@@ -24,13 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/navikt/nitd22/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/navikt/nitd22/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/navikt/nitd22/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
