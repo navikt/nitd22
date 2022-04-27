@@ -15,6 +15,8 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'navikt', // Usually your GitHub org/user name.
   projectName: 'nitd22', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   presets: [
     [
