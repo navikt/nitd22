@@ -4,39 +4,41 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Lyntaler?',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Ja takk!
-      </>
-    ),
-  },
-  {
-    title: 'Foredrag eller demoer?',
+    title: 'Hva?',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Ja takk!
+        Fagdag for<br />Utvikling og Data
       </>
     ),
   },
   {
-    title: 'Workshops?',
+    title: 'Hvor?',
+    imageSrc: '/img/felixmap.png',
+    description: (
+      <>
+        Felix Konferansesenter<br />
+        <a href="https://www.google.com/maps/place/Felix+Conference+Centre/@59.9103604,10.7232209,17z/data=!3m1!5s0x46416e81a5baf3c1:0x54a57cc273c541cb!4m5!3m4!1s0x46416e81bb05208b:0x2c25291aa1955293!8m2!3d59.9101662!4d10.7250783">Bryggetorget 3, Oslo</a>
+      </>
+    ),
+  },
+  {
+    title: 'Når?',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Ja takk!
+        Fra morgen til kveld,<br />
+        31. mai 2022
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, imageSrc, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {Svg ? <Svg className={styles.featureSvg} role="img" /> : <img className={styles.featureImage} src={imageSrc} />}
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
