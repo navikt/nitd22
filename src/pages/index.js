@@ -33,7 +33,6 @@ function OpeningCountdown({ startTimeMs }) {
   useEffect(() => {
     setInterval(() => {
       setCurrentTimeMs(new Date().getTime());
-      console.log(currentTimeMs);
     }, 1000)
   }, []);
 
