@@ -9,10 +9,8 @@
   position: relative;
   overflow: hidden;
   background-image: url('/img/felix.png');
-  background-position-y: -450px;
-  background-attachment: fixed;
+  background-position-y: -700px;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .heroText {
@@ -22,7 +20,6 @@
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
-    background-position-y: -300px;
   }
 }
 
