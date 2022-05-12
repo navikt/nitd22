@@ -7,6 +7,26 @@ hide_table_of_contents: true
 
 <table>
     <tr>
+        <td colspan="7">NITD 2022</td>
+    </tr>
+    <tr>
+        <td>09:00</td>
+        <td>09:30</td>
+        <td colspan="5">Mingling og lett servering</td>
+    </tr>
+    <tr>
+        <td>09:30</td>
+        <td>10:20</td>
+        <td colspan="3"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10:20</td>
+        <td>10:30</td>
+        <td colspan="5">PAUSE - 10 minutter pause</td>
+    </tr>
+    <tr>
         <td>FRA</td>
         <td>TIL</td>
         <td>SPEAKER - SPOR 1</td>
@@ -14,25 +34,6 @@ hide_table_of_contents: true
         <td>SPEAKER - SPOR 3</td>
         <td>TEMA</td>
         <td>KOMMENTAR</td>
-    </tr>
-    <tr>
-        <td>09:00</td>
-        <td>09:30</td>
-        <td colspan="4">Mingling</td>
-        <td>1. servering - kaffe, te, bakevarer</td>
-    </tr>
-    <tr>
-        <td>09:30</td>
-        <td>10:20</td>
-        <td colspan="3">Tor Sporsem: Digitalisering kveler viktig kunnskap <br /> Fredrik Scheide: Design og produktutvikling</td>
-        <td>Foredrag</td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>10:20</td>
-        <td>10:30</td>
-        <td colspan="4">PAUSE</td>
-        <td>10 minutter pause</td>
     </tr>
     <tr>
         <td>10:30</td>
