@@ -4,6 +4,10 @@
  * work well for content-centric websites.
  */
 
+.textCenter {
+text-align: center;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #8d0000;
