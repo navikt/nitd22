@@ -18,20 +18,20 @@ hide_table_of_contents: true
     <tr>
         <td>09:00</td>
         <td>09:30</td>
-        <td colspan=4>Mingling</td>
+        <td colspan="4">Mingling</td>
         <td>1. servering - kaffe, te, bakevarer</td>
     </tr>
     <tr>
         <td>09:30</td>
         <td>10:20</td>
-        <td colspan=3>KEYNOTE: Tor Sporsem: "Digitalisering kveler viktig kunnskap" og Fredrik Scheide: "Design og produktutvikling"</td>
+        <td colspan="3">Tor Sporsem: Digitalisering kveler viktig kunnskap og Fredrik Scheide: Design og produktutvikling</td>
         <td>Foredrag</td>
         <td></td>
     </tr>
     <tr>
         <td>10:20</td>
         <td>10:30</td>
-        <td colspan=4>PAUSE</td>
+        <td colspan="4">PAUSE</td>
         <td>10 minutter pause</td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@ hide_table_of_contents: true
     <tr>
         <td>11:00</td>
         <td>11:20</td>
-        <td rowspan=2>Robin Tordly "Bruk av kafka streams i ny AAP løsning"</td>
+        <td rowspan="2">Robin Tordly "Bruk av kafka streams i ny AAP løsning"</td>
         <td>Terje Heen "En rant om dagsakutelt tema"</td>
         <td>Espen eller Ivar "Cloud Datawarehous, a love story?"</td>
         <td>Foredrag</td>
@@ -63,15 +63,15 @@ hide_table_of_contents: true
     <tr>
         <td>11:50</td>
         <td>12:25</td>
-        <td colspan=4>LUNCH</td>
+        <td colspan="4">LUNCH</td>
         <td>2. servering - lunch</td>
     </tr>
     <tr>
         <td>12:25</td>
         <td>12:45</td>
-        <td>Ulrik Halmøy "Lol ting med teknologi: tape music på kommandolinjen"</td>
-        <td rowspan=2>Dervis Mansuroglu "Empathic mentoring for developers"</td>
-        <td rowspan=2>Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"</td>
+        <td>Ulrik Halmøy "Miniforedrag genere lyd"</td>
+        <td rowspan="2">Dervis Mansuroglu "Empathic mentoring for developers"</td>
+        <td rowspan="2">Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"</td>
         <td>Foredrag</td>
         <td></td>
     </tr>
@@ -85,7 +85,7 @@ hide_table_of_contents: true
     <tr>
         <td>13:15</td>
         <td>13:40</td>
-        <td colspan=4>PAUSE</td>
+        <td colspan="4">PAUSE</td>
         <td>3. servering - Dessert, kos, kaker etc</td>
     </tr>
     <tr>
@@ -109,7 +109,7 @@ hide_table_of_contents: true
     <tr>
         <td>14:40</td>
         <td>15:00</td>
-        <td colspan=3>Vegard</td>
+        <td colspan="3">Vegard</td>
         <td>Foredrag</td>
         <td>Slutt keynote</td>
     </tr>
