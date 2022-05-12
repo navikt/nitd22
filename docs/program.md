@@ -4,21 +4,117 @@ hide_table_of_contents: true
 ---
 
 # Program
-| ***FRA***   | ***TIL***   | ***SPEAKER - SPOR 1***                                  | SPEAKER - SPOR 2                                                                                       | SPEAKER - SPOR 3                                     | TEMA        | KOMMENTAR                                     |
-|-------------|-------------|---------------------------------------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------|-------------|-----------------------------------------------|
-| ***09:00*** | ***09:30*** | Mingling                                                | Mingling                                                                                               | Mingling                                             | Mingling    | ***1\. servering - kaffe, te, bakevarer***    |
-| ***09:30*** | ***10:20*** | ----------------                                        | _Tor Sporsem: Digitalisering kveler viktig kunnskap og Fredrik Scheide: Design og produktutvikling_ | ----------------                                     | Foredrag    |                                               |
-| ***10:20*** | ***10:30*** | ***PAUSE***                                             | ***PAUSE***                                                                                            | ***PAUSE***                                          | ***PAUSE*** | ***10 minutter pause***                       |
-| ***10:30*** | ***10:50*** | Open slot for talk                                      | _Malaz Alkoj "Psykologisk trygghet" (Lyntale 20 min)_                                                  | _Patrick eller Ivar "Erfaringer med dbt"_              | Foredrag    |                                               |
-| ***11:00*** | ***11:20*** | _Robin Tordly "Bruk av kafka streams i ny AAP løsning"_ | _Terje Heen "En rant om dagsakutelt tema"_                                                             | _Espen eller Ivar "Cloud Datawarehous, a love story?"_ | Foredrag    |                                               |
-| ***11:30*** | ***11:50*** | _Robin Tordly "Bruk av kafka streams i ny AAP løsning"_ | _Eilif Johansen_                                                                                       | _Øystein bakken" Et foredrag om Team"_                 | Foredrag    |                                               |
-| ***11:50*** | ***12:25*** | ***LUNCH***                                             | ***LUNCH***                                                                                            | ***LUNCH***                                          | ***LUNCH*** | ***2\. servering - lunch***                   |
-| ***12:25*** | ***12:45*** | _Ulrik Halmøy "Miniforedrag genere lyd"_                | _Dervis Mansuroglu "Empathic mentoring for developers"_                                                | _Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"_      | Foredrag    |                                               |
-| ***12:55*** | ***13:15*** | _Kent Daleng "HAHAHA, en Kubernetes operator i Rust"_                                      | _Dervis Mansuroglu "Empathic mentoring for developers"_                                                | _Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"_      | Foredrag    |                                               |
-| ***13:15*** | ***13:40*** | ***PAUSE***                                             | ***PAUSE***                                                                                            | ***PAUSE***                                          | ***PAUSE*** | ***3\. servering - Dessert, kos, kaker etc*** |
-| ***13:40*** | ***14:00*** | _Hilde Nøkland "På sporet av en tredje pilar (eller en historie om tracing om du vil)"_                             | _Line Moseng "Dagens lover"_                                                                           | _Alexander Amiri "AI i java/kotlin"_                   | Foredrag    |                                               |
-| ***14:10*** | ***14:30*** | _Sturle Helland "Kvitt deg med teknisk gjeld"_          | _Tanet Trimas "Capture the flag"_                                                                      | _Rupinder Kaur Sethi "Tableau dashboard"_              | Foredrag    |                                               |
-| ***14:40*** | ***15:00*** | **Vegard**                                              | **Vegard**                                                                                         | **Vegard**                                           | **Foredrag**    | **Slutt keynote**                             |
+
+<table>
+    <tr>
+        <td>FRA</td>
+        <td>TIL</td>
+        <td>SPEAKER - SPOR 1</td>
+        <td>SPEAKER - SPOR 2</td>
+        <td>SPEAKER - SPOR 3</td>
+        <td>TEMA</td>
+        <td>KOMMENTAR</td>
+    </tr>
+    <tr>
+        <td>09:00</td>
+        <td>09:30</td>
+        <td colspan=4>Mingling</td>
+        <td>1. servering - kaffe, te, bakevarer</td>
+    </tr>
+    <tr>
+        <td>09:30</td>
+        <td>10:20</td>
+        <td colspan=3>Tor Sporsem: Digitalisering kveler viktig kunnskap og Fredrik Scheide: Design og produktutvikling</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>10:20</td>
+        <td>10:30</td>
+        <td colspan=4>PAUSE</td>
+        <td>10 minutter pause</td>
+    </tr>
+    <tr>
+        <td>10:30</td>
+        <td>10:50</td>
+        <td>Open slot for talk</td>
+        <td>Malaz Alkoj "Psykologisk trygghet" (Lyntale 20 min)</td>
+        <td>Patrick eller Ivar "Erfaringer med dbt"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11:00</td>
+        <td>11:20</td>
+        <td rowspan=2>Robin Tordly "Bruk av kafka streams i ny AAP løsning"</td>
+        <td>Terje Heen "En rant om dagsakutelt tema"</td>
+        <td>Espen eller Ivar "Cloud Datawarehous, a love story?"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11:30</td>
+        <td>11:50</td>
+        <td>Eilif Johansen</td>
+        <td>Øystein bakken" Et foredrag om Team"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>11:50</td>
+        <td>12:25</td>
+        <td colspan=4>LUNCH</td>
+        <td>2. servering - lunch</td>
+    </tr>
+    <tr>
+        <td>12:25</td>
+        <td>12:45</td>
+        <td>Ulrik Halmøy "Miniforedrag genere lyd"</td>
+        <td rowspan=2>Dervis Mansuroglu "Empathic mentoring for developers"</td>
+        <td rowspan=2>Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>12:55</td>
+        <td>13:15</td>
+        <td>Kent Daleng "HAHAHA, en Kubernetes operator i Rust"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>13:15</td>
+        <td>13:40</td>
+        <td colspan=4>PAUSE</td>
+        <td>3. servering - Dessert, kos, kaker etc</td>
+    </tr>
+    <tr>
+        <td>13:40</td>
+        <td>14:00</td>
+        <td>Hilde Nøkland "På sporet av en tredje pilar (eller en historie om tracing om du vil)"</td>
+        <td>Line Moseng "Dagens lover"</td>
+        <td>Alexander Amiri "AI i java/kotlin"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>14:10</td>
+        <td>14:30</td>
+        <td>Sturle Helland "Kvitt deg med teknisk gjeld"</td>
+        <td>Tanet Trimas "Capture the flag"</td>
+        <td>Rupinder Kaur Sethi "Tableau dashboard"</td>
+        <td>Foredrag</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>14:40</td>
+        <td>15:00</td>
+        <td colspan=3>Vegard</td>
+        <td>Foredrag</td>
+        <td>Slutt keynote</td>
+    </tr>
+</table>
+
 ## 🍻 Sosialt opplegg på kvelden 🍻
 For de som ønsker å mingle etter konferansen bookes det bord i nærheten av Felix. Mer info om hvor og når kommer!
 
