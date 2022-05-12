@@ -69,7 +69,7 @@ hide_table_of_contents: true
     <tr>
         <td>12:25</td>
         <td>12:45</td>
-        <td>Ulrik Halmøy "Miniforedrag genere lyd"</td>
+        <td>Ulrik Halmøy "Lol ting med teknologi: tape music på kommandolinjen"</td>
         <td rowspan="2">Dervis Mansuroglu "Empathic mentoring for developers"</td>
         <td rowspan="2">Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"</td>
         <td>Foredrag</td>
