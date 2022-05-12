@@ -35,21 +35,21 @@ hide_table_of_contents: true
         <td>10:30</td>
         <td>10:50</td>
         <td>Open slot for talk</td>
-        <td>Malaz Alkoj "Psykologisk trygghet"</td>
-        <td>Patrick eller Ivar "Erfaringer med dbt"</td>
+        <td>Malaz Alkoj <br /> "Psykologisk trygghet"</td>
+        <td>Patrick || Ivar <br /> "Erfaringer med dbt"</td>
     </tr>
     <tr>
         <td>11:00</td>
         <td>11:20</td>
-        <td rowspan="2">Robin Tordly "Bruk av kafka streams i ny AAP løsning"</td>
-        <td>Terje Heen "En rant om dagsakutelt tema"</td>
-        <td>Espen eller Ivar "Cloud Datawarehous, a love story?"</td>
+        <td rowspan="2">Robin Tordly <br /> "Bruk av kafka streams i ny AAP løsning"</td>
+        <td>Terje Heen <br /> "En rant om dagsakutelt tema"</td>
+        <td>Espen || Ivar <br /> "Cloud Datawarehous, a love story?"</td>
     </tr>
     <tr>
         <td>11:30</td>
         <td>11:50</td>
         <td>Eilif Johansen</td>
-        <td>Øystein bakken" Et foredrag om Team"</td>
+        <td>Øystein bakken <br /> "Et foredrag om Team"</td>
     </tr>
     <tr>
         <td>11:50</td>
@@ -66,14 +66,14 @@ hide_table_of_contents: true
     <tr>
         <td>12:25</td>
         <td>12:45</td>
-        <td>Ulrik Halmøy "Lol ting med teknologi: tape music på kommandolinjen"</td>
-        <td rowspan="2">Dervis Mansuroglu "Empathic mentoring for developers"</td>
-        <td rowspan="2">Rituvsh Kumar "Hvordan PDL fungere i dag i NAV"</td>
+        <td>Ulrik Halmøy <br /> "Lol ting med teknologi: tape music på kommandolinjen"</td>
+        <td rowspan="2">Dervis Mansuroglu <br /> "Empathic mentoring for developers"</td>
+        <td rowspan="2">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV"</td>
     </tr>
     <tr>
         <td>12:55</td>
         <td>13:15</td>
-        <td>Kent Daleng "HAHAHA, en Kubernetes operator i Rust"</td>
+        <td>Kent Daleng <br /> "HAHAHA, en Kubernetes operator i Rust"</td>
     </tr>
     <tr>
         <td>13:15</td>
@@ -83,16 +83,16 @@ hide_table_of_contents: true
     <tr>
         <td>13:40</td>
         <td>14:00</td>
-        <td>Hilde Nøkland "På sporet av en tredje pilar (eller en historie om tracing om du vil)"</td>
-        <td>Line Moseng "Dagens lover"</td>
-        <td>Alexander Amiri "AI i java/kotlin"</td>
+        <td>Hilde Nøkland <br /> "På sporet av en tredje pilar (eller en historie om tracing om du vil)"</td>
+        <td>Line Moseng <br /> "Dagens lover"</td>
+        <td>Alexander Amiri <br /> "AI i java/kotlin"</td>
     </tr>
     <tr>
         <td>14:10</td>
         <td>14:30</td>
-        <td>Sturle Helland "Kvitt deg med teknisk gjeld"</td>
+        <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld"</td>
         <td>Open slot for talk</td>
-        <td>Rupinder Kaur Sethi "Tableau dashboard"</td>
+        <td>Rupinder Kaur Sethi <br /> "Tableau dashboard"</td>
     </tr>
     <tr>
         <td>14:40</td>
