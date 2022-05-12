@@ -12,7 +12,7 @@ hide_table_of_contents: true
     <tr>
         <td>09:00</td>
         <td>09:30</td>
-        <td colspan="5">VELKOMMEN: Mingling og lett servering</td>
+        <td colspan="5">strong>VELKOMMEN:</strong> Mingling og lett servering</td>
     </tr>
     <tr>
         <td>09:30</td>
@@ -26,13 +26,13 @@ hide_table_of_contents: true
         <td colspan="5"><strong>PAUSE</strong> <br /> 10 minutter pause</td>
     </tr>
     <tr>
-        <td>FRA</td>
-        <td>TIL</td>
-        <td>SPEAKER - SPOR 1</td>
-        <td>SPEAKER - SPOR 2</td>
-        <td>SPEAKER - SPOR 3</td>
-        <td>TEMA</td>
-        <td>KOMMENTAR</td>
+        <td><i><strong>FRA</strong></i></td>
+        <td><i><strong>TIL</strong></i></td>
+        <td><i><strong>SPEAKER - SPOR 1</strong></i></td>
+        <td><i><strong>SPEAKER - SPOR 2</strong></i></td>
+        <td><i><strong>SPEAKER - SPOR 3</strong></i></td>
+        <td><i><strong>TEMA</strong></i></td>
+        <td><i><strong>KOMMENTAR</strong></i></td>
     </tr>
     <tr>
         <td>10:30</td>
@@ -66,13 +66,13 @@ hide_table_of_contents: true
         <td colspan="5"><strong>LUNCH</strong> <br /> Varm- og kald mat buffet</td>
     </tr>
     <tr>
-        <td>FRA</td>
-        <td>TIL</td>
-        <td>SPEAKER - SPOR 1</td>
-        <td>SPEAKER - SPOR 2</td>
-        <td>SPEAKER - SPOR 3</td>
-        <td>TEMA</td>
-        <td>KOMMENTAR</td>
+        <td><i><strong>FRA</strong></i></td>
+        <td><i><strong>TIL</strong></i></td>
+        <td><i><strong>SPEAKER - SPOR 1</strong></i></td>
+        <td><i><strong>SPEAKER - SPOR 2</strong></i></td>
+        <td><i><strong>SPEAKER - SPOR 3</strong></i></td>
+        <td><i><strong>TEMA</strong></i></td>
+        <td><i><strong>KOMMENTAR</strong></i></td>
     </tr>
     <tr>
         <td>12:25</td>
