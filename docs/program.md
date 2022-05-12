@@ -17,8 +17,7 @@ hide_table_of_contents: true
     <tr>
         <td>09:30</td>
         <td>10:20</td>
-        <td className={"textCenter"} colspan="4"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
-        <td></td>
+        <td className={"textCenter"} colspan="5"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
     </tr>
     <tr>
         <td>10:20</td>
@@ -116,8 +115,7 @@ hide_table_of_contents: true
     <tr>
         <td>14:40</td>
         <td>15:00</td>
-        <td className={"textCenter"} colspan="4"><strong>SLUTT KEYNOTE:</strong> <br /> Vegard Storstad</td>
-        <td></td>
+        <td className={"textCenter"} colspan="5"><strong>SLUTT KEYNOTE:</strong> <br /> Vegard Storstad</td>
     </tr>
 </table>
 
