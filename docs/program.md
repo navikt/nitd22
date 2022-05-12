@@ -12,7 +12,7 @@ hide_table_of_contents: true
     <tr>
         <td>09:00</td>
         <td>09:30</td>
-        <td colspan="5">strong>VELKOMMEN:</strong> Mingling og lett servering</td>
+        <td colspan="5"><strong>VELKOMMEN:</strong> Mingling og lett servering</td>
     </tr>
     <tr>
         <td>09:30</td>
