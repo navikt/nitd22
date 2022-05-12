@@ -7,7 +7,7 @@ hide_table_of_contents: true
 
 <table>
     <tr>
-        <td colspan="7">NITD 2022</td>
+        <td colspan="7"><strong>NITD 2022</strong></td>
     </tr>
     <tr>
         <td>09:00</td>
