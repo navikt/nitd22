@@ -23,7 +23,7 @@ hide_table_of_contents: true
     <tr>
         <td>10:20</td>
         <td>10:30</td>
-        <td colspan="5">PAUSE - 10 minutter pause</td>
+        <td colspan="5"><strong>PAUSE</strong> <br /> 10 minutter pause</td>
     </tr>
     <tr>
         <td>FRA</td>
@@ -63,7 +63,7 @@ hide_table_of_contents: true
     <tr>
         <td>11:50</td>
         <td>12:25</td>
-        <td colspan="5">LUNCH - Varm- og kald mat buffet</td>
+        <td colspan="5"><strong>LUNCH</strong> <br /> Varm- og kald mat buffet</td>
     </tr>
     <tr>
         <td>FRA</td>
@@ -93,8 +93,7 @@ hide_table_of_contents: true
     <tr>
         <td>13:15</td>
         <td>13:40</td>
-        <td colspan="4">PAUSE</td>
-        <td>3. servering - Dessert, kos, kaker etc</td>
+        <td colspan="5"><strong>PAUSE</strong> <br /> Dessert, kake, kaffe/te</td>
     </tr>
     <tr>
         <td>13:40</td>
