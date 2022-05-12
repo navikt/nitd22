@@ -12,13 +12,12 @@ hide_table_of_contents: true
     <tr>
         <td>09:00</td>
         <td>09:30</td>
-        <td colspan="5">Mingling og lett servering</td>
+        <td colspan="5">VELKOMMEN: Mingling og lett servering</td>
     </tr>
     <tr>
         <td>09:30</td>
         <td>10:20</td>
-        <td colspan="3"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
-        <td>Foredrag</td>
+        <td colspan="4"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
         <td></td>
     </tr>
     <tr>
@@ -41,7 +40,7 @@ hide_table_of_contents: true
         <td>Open slot for talk</td>
         <td>Malaz Alkoj "Psykologisk trygghet" (Lyntale 20 min)</td>
         <td>Patrick eller Ivar "Erfaringer med dbt"</td>
-        <td>Foredrag</td>
+        <td>Lyntaler</td>
         <td></td>
     </tr>
     <tr>
