@@ -3,7 +3,7 @@ title: Program
 hide_table_of_contents: true
 ---
 
-# Programmet er under arbeid
+# Program
 | FRA   | TIL   | SPEAKER - SPOR 1                                      | SPEAKER - SPOR 2                                                                                    | SPEAKER - SPOR 3                                     | TEMA     | KOMMENTAR                               |
 | ----- | ----- | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | -------- | --------------------------------------- |
 | 09:00 | 09:30 | Mingling                                              | Mingling                                                                                            | Mingling                                             | Mingling | 1\. servering - kaffe, te, bakevarer    |
