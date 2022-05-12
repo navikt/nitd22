@@ -24,7 +24,7 @@ hide_table_of_contents: true
     <tr>
         <td>09:30</td>
         <td>10:20</td>
-        <td colspan=3>Tor Sporsem: Digitalisering kveler viktig kunnskap og Fredrik Scheide: Design og produktutvikling</td>
+        <td colspan=3>KEYNOTE: Tor Sporsem: "Digitalisering kveler viktig kunnskap" og Fredrik Scheide: "Design og produktutvikling"</td>
         <td>Foredrag</td>
         <td></td>
     </tr>
