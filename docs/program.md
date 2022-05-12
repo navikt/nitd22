@@ -19,6 +19,9 @@ hide_table_of_contents: true
 | ***13:40*** | ***14:00*** | _Hilde Nøkland "Metrikker"_                             | _Line Moseng "Dagens lover"_                                                                           | Alexander Amiri "AI i java/kotlin"                   | Foredrag    |                                               |
 | ***14:10*** | ***14:30*** | _Sturle Helland "Kvitt deg med teknisk gjeld"_          | _Tanet Trimas "Capture the flag"_                                                                      | Rupinder Kaur Sethi "Tableau dashboard"              | Foredrag    |                                               |
 | ***14:40*** | ***15:00*** | **Vegard**                                              | **Vegard**                                                                                         | **Vegard**                                           | **Foredrag**    | **Slutt keynote**                             |
+## 🍻 Sosialt opplegg på kvelden 🍻
+For de som ønsker å mingle etter konferansen bookes det bord i nærheten av Felix. Mer info om hvor og når kommer!
+
 ## 💡 Har du forslag til tema? 
 
 Flott! 😃 Send inn forslaget ditt i [skjemaet](https://forms.office.com/Pages/ResponsePage.aspx?id=NGU2YsMeYkmIaZtVNSedCyKMKHMBvzVPtRUZDMBRSnxUQzVXMTE2NFlFN0ZDMDlER0NRNzNNSDZKWi4u) vi har laget.
