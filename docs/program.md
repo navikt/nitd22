@@ -63,7 +63,7 @@ hide_table_of_contents: true
     <tr>
         <td>11:50</td>
         <td>12:25</td>
-        <td colspan="5"><strong>LUNCH</strong> <br /> Varm- og kald mat buffet</td>
+        <td className={"textCenter"} colspan="5"><strong>LUNCH</strong> <br /> Varm- og kald mat buffet</td>
     </tr>
     <tr>
         <td><i><strong>FRA</strong></i></td>
@@ -93,7 +93,7 @@ hide_table_of_contents: true
     <tr>
         <td>13:15</td>
         <td>13:40</td>
-        <td colspan="5"><strong>PAUSE</strong> <br /> Dessert, kake, kaffe/te</td>
+        <td className={"textCenter"} colspan="5"><strong>PAUSE</strong> <br /> Dessert, kake, kaffe/te</td>
     </tr>
     <tr>
         <td>13:40</td>
@@ -116,7 +116,7 @@ hide_table_of_contents: true
     <tr>
         <td>14:40</td>
         <td>15:00</td>
-        <td colspan="4"><strong>SLUTT KEYNOTE:</strong> Vegard Storstad</td>
+        <td className={"textCenter"} colspan="4"><strong>SLUTT KEYNOTE:</strong> <br /> Vegard Storstad</td>
         <td></td>
     </tr>
 </table>
