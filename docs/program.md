@@ -63,8 +63,16 @@ hide_table_of_contents: true
     <tr>
         <td>11:50</td>
         <td>12:25</td>
-        <td colspan="4">LUNCH</td>
-        <td>2. servering - lunch</td>
+        <td colspan="5">LUNCH - Varm- og kald mat buffet</td>
+    </tr>
+    <tr>
+        <td>FRA</td>
+        <td>TIL</td>
+        <td>SPEAKER - SPOR 1</td>
+        <td>SPEAKER - SPOR 2</td>
+        <td>SPEAKER - SPOR 3</td>
+        <td>TEMA</td>
+        <td>KOMMENTAR</td>
     </tr>
     <tr>
         <td>12:25</td>
