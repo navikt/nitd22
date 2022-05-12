@@ -48,7 +48,7 @@ hide_table_of_contents: true
     <tr>
         <td>11:30</td>
         <td>11:50</td>
-        <td>Eilif Johansen</td>
+        <td>Eilif Johansen <br /> "Nettleserutvidelse for Fart & Flyt utviklet med React og Designsystemet"</td>
         <td>Øystein bakken <br /> "Et foredrag om Team"</td>
     </tr>
     <tr>
