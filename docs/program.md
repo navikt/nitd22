@@ -116,9 +116,8 @@ hide_table_of_contents: true
     <tr>
         <td>14:40</td>
         <td>15:00</td>
-        <td colspan="3">Vegard</td>
-        <td>Foredrag</td>
-        <td>Slutt keynote</td>
+        <td colspan="4"><strong>SLUTT KEYNOTE:</strong> Vegard Storstad</td>
+        <td></td>
     </tr>
 </table>
 
