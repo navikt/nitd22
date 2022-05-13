@@ -34,7 +34,7 @@ hide_table_of_contents: true
     <tr>
         <td>10:30</td>
         <td>10:50</td>
-        <td>Open slot for talk</td>
+        <td>Louis Dieffenthaler "Hvorfor skal produktteam bruke NADA?"</td>
         <td>Malaz Alkoj <br /> "Psykologisk trygghet"</td>
         <td>Patrick || Ivar <br /> "Erfaringer med dbt"</td>
     </tr>
