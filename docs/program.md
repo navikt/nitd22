@@ -91,7 +91,7 @@ hide_table_of_contents: true
         <td>14:10</td>
         <td>14:30</td>
         <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld"</td>
-        <td>Open slot for talk</td>
+        <td>Tanet Trimas "Capture the flag"</td>
         <td>Rupinder Kaur Sethi <br /> "Tableau dashboard"</td>
     </tr>
     <tr>
