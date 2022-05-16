@@ -67,7 +67,8 @@ hide_table_of_contents: true
         <td>12:25</td>
         <td>12:45</td>
         <td>Ulrik Halmøy <br /> "Lol ting med teknologi: tape music på kommandolinjen"</td>
-        <td rowspan="2">Dervis Mansuroglu <br /> "Empathic mentoring for developers"</td>
+        <td>- LEDIG -</td>
+        <td>- LEDIG -</td>
         <td rowspan="2">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV"</td>
     </tr>
     <tr>
@@ -91,7 +92,7 @@ hide_table_of_contents: true
         <td>14:10</td>
         <td>14:30</td>
         <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld"</td>
-        <td>Tanet Trimas "Capture the flag"</td>
+        <td>- LEDIG -</td>
         <td>Rupinder Kaur Sethi <br /> "Tableau dashboard"</td>
     </tr>
     <tr>
