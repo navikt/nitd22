@@ -67,14 +67,14 @@ hide_table_of_contents: true
         <td>12:25</td>
         <td>12:45</td>
         <td>Ulrik Halmøy <br /> "Lol ting med teknologi: tape music på kommandolinjen"</td>
-        <td>- LEDIG -</td>
+        <td>Tordbjorn Wang Eriksen - Apache Age: PostGreSql som Graf-Database</td>
         <td rowspan="2">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV"</td>
     </tr>
     <tr>
         <td>12:55</td>
         <td>13:15</td>
         <td>Kent Daleng <br /> "HAHAHA, en Kubernetes operator i Rust"</td>
-        <td>- LEDIG -</td>
+        <td>Robindra Prabhu - (u)Rettferdig maskinlæringsmodell i prediksjon for sykefraværsvarighet</td>
     </tr>
     <tr>
         <td>13:15</td>
