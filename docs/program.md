@@ -68,12 +68,12 @@ hide_table_of_contents: true
         <td>12:45</td>
         <td>Ulrik Halmøy <br /> "Lol ting med teknologi: tape music på kommandolinjen"</td>
         <td>- LEDIG -</td>
-        <td>- LEDIG -</td>
         <td rowspan="2">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV"</td>
     </tr>
     <tr>
         <td>12:55</td>
         <td>13:15</td>
+        <td>- LEDIG -</td>
         <td>Kent Daleng <br /> "HAHAHA, en Kubernetes operator i Rust"</td>
     </tr>
     <tr>
