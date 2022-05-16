@@ -73,8 +73,8 @@ hide_table_of_contents: true
     <tr>
         <td>12:55</td>
         <td>13:15</td>
-        <td>- LEDIG -</td>
         <td>Kent Daleng <br /> "HAHAHA, en Kubernetes operator i Rust"</td>
+        <td>- LEDIG -</td>
     </tr>
     <tr>
         <td>13:15</td>
