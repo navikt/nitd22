@@ -35,7 +35,7 @@ hide_table_of_contents: true
         <td>10:30</td>
         <td>10:50</td>
         <td>Louis Dieffenthaler "Hvorfor skal produktteam bruke NADA?" (20 min)</td>
-        <td>Malaz Alkoj <br /> "Psykologisk trygghet" (20 min)</td>
+        <td>Malaz Alkoj <br /> "Er psykologisk trygghet bare tull og tøys?" (20 min)</td>
         <td>Patrick || Ivar <br /> "Erfaringer med dbt" (20 min)</td>
     </tr>
     <tr>
