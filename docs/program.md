@@ -34,7 +34,7 @@ hide_table_of_contents: true
     <tr>
         <td>10:30</td>
         <td>10:50</td>
-        <td>Louis Dieffenthaler "Hvorfor skal produktteam bruke NADA?" (20 min)</td>
+        <td>Terje Heen <br /> "En rant om dagsakutelt tema" (20 min)</td>
         <td>Malaz Alkoj <br /> "Er psykologisk trygghet bare tull og tøys?" (20 min)</td>
         <td>Patrick || Ivar <br /> "Erfaringer med dbt" (20 min)</td>
     </tr>
@@ -42,14 +42,14 @@ hide_table_of_contents: true
         <td>11:00</td>
         <td>11:20</td>
         <td rowspan="2">Robin Tordly <br /> "Bruk av kafka streams i ny AAP løsning" (45 min)</td>
-        <td>Terje Heen <br /> "En rant om dagsakutelt tema" (20 min)</td>
+        <td>Louis Dieffenthaler "Hvorfor skal produktteam bruke NADA?" (20 min)</td>
         <td>Espen || Ivar <br /> "Cloud data warehouse, a love story?" (20 min)</td>
     </tr>
     <tr>
         <td>11:30</td>
         <td>11:50</td>
         <td>Eilif Johansen <br /> "Nettleserutvidelse for Fart & Flyt utviklet med React og Designsystemet" (20 min)</td>
-        <td>Øystein bakken <br /> "Et foredrag om Team" (10-20 min)</td>
+        <td>Øystein Bakken <br /> "Funksjonelle Team" (10-20 min)</td>
     </tr>
     <tr>
         <td>11:50</td>
@@ -65,35 +65,40 @@ hide_table_of_contents: true
     </tr>
     <tr>
         <td>12:25</td>
-        <td>12:45</td>
+        <td>12:35</td>
+        <td rowspan="2">Robindra Prabhu - "(u)Rettferdig maskinlæringsmodell i prediksjon for sykefraværsvarighet" (20 min)</td>
         <td>Ulrik Halmøy <br /> "Lol ting med teknologi: tape music på kommandolinjen" (10 min)</td>
-        <td>Tordbjørn Wang Eriksen <br /> "Apache Age: PostGreSql som Graf-Database" (20 min)</td>
-        <td rowspan="2">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV" (?)</td>
+        <td rowspan="4">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV" (?)</td>
+    </tr>
+    <tr>
+        <td>12:40</td>
+        <td>12:50</td>
+        <td>Kent Daleng <br /> "HAHAHA, en Kubernetes operator i Rust" (10 min)</td>
     </tr>
     <tr>
         <td>12:55</td>
-        <td>13:15</td>
-        <td>Kent Daleng <br /> "HAHAHA, en Kubernetes operator i Rust" (10 min)</td>
-        <td>Robindra Prabhu - "(u)Rettferdig maskinlæringsmodell i prediksjon for sykefraværsvarighet" (20 min)</td>
+        <td>13:05</td>
+        <td>Alexander Amiri <br /> "AI i java/kotlin" (10 min)</td>
+        <td>Jacob Sjødin <br /> "Fem måter datasettet ditt lekker informasjon" (10 min)</td>
     </tr>
     <tr>
-        <td>13:15</td>
+        <td>13:05</td>
         <td>13:40</td>
         <td className={"textCenter"} colspan="3"><strong>PAUSE</strong> <br /> Dessert, kake, kaffe/te</td>
     </tr>
     <tr>
         <td>13:40</td>
         <td>14:00</td>
-        <td>Hilde Nøkland <br /> "På sporet av en tredje pilar (eller en historie om tracing om du vil)" (20 min)</td>
         <td>Line Moseng <br /> "En kort historie om å open source NAV" (10-20 min)</td>
-        <td>Alexander Amiri <br /> "AI i java/kotlin" (20 min)</td>
+        <td>Tordbjørn Wang Eriksen <br /> "Apache Age: PostGreSql som Graf-Database" (20 min)</td>
+        <td>Hilde Nøkland <br /> "På sporet av en tredje pilar (eller en historie om tracing om du vil)" (20 min)</td>
     </tr>
     <tr>
         <td>14:10</td>
         <td>14:30</td>
-        <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld" (20 min)</td>
         <td>Joakim Taule Kartveit <br /> "Eg liker åpen kildekode i NAV" (10 min)</td>
         <td>Rupinder Kaur Sethi <br /> "Tableau dashboard" (20 min)</td>
+        <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld" (20 min)</td>
     </tr>
     <tr>
         <td>14:40</td>
