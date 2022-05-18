@@ -85,14 +85,14 @@ hide_table_of_contents: true
         <td>13:40</td>
         <td>14:00</td>
         <td>Hilde Nøkland <br /> "På sporet av en tredje pilar (eller en historie om tracing om du vil)"</td>
-        <td>Line Moseng <br /> Hvorfor begynte vi å open source NAV</td>
+        <td>Line Moseng <br /> "Hvorfor begynte vi å open source NAV"</td>
         <td>Alexander Amiri <br /> "AI i java/kotlin"</td>
     </tr>
     <tr>
         <td>14:10</td>
         <td>14:30</td>
         <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld"</td>
-        <td>- LEDIG -</td>
+        <td>Joakim Taule Kartveit <br /> "Eg liker åpen kildekode i NAV"</td>
         <td>Rupinder Kaur Sethi <br /> "Tableau dashboard"</td>
     </tr>
     <tr>
