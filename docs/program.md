@@ -43,7 +43,7 @@ hide_table_of_contents: true
         <td>11:20</td>
         <td rowspan="2">Robin Tordly <br /> "Bruk av kafka streams i ny AAP løsning" (45 min)</td>
         <td>Terje Heen <br /> "En rant om dagsakutelt tema" (20 min)</td>
-        <td>Espen || Ivar <br /> "Cloud Datawarehous, a love story?" (20 min)</td>
+        <td>Espen || Ivar <br /> "Cloud data warehouse, a love story?" (20 min)</td>
     </tr>
     <tr>
         <td>11:30</td>
