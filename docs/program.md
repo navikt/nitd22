@@ -95,11 +95,15 @@ hide_table_of_contents: true
     </tr>
     <tr>
         <td>14:10</td>
-        <td>14:30</td>
+        <td>14:20</td>
         <td>Joakim Taule Kartveit <br /> "Eg liker åpen kildekode i NAV" (10 min)</td>
-        <td>Rupinder Kaur Sethi <br /> "Tableau dashboard" (20 min)</td>
-        <td>Sturle Helland <br /> "Kvitt deg med teknisk gjeld" (20 min)</td>
-    </tr>
+        <td rowspan="2">Rupinder Kaur Sethi <br /> "Tableau dashboard" (20 min)</td>
+        <td rowspan="2">Sturle Helland <br /> "Kvitt deg med teknisk gjeld" (20 min)</td>
+    </tr>  
+    <tr>
+        <td>14:20</td>
+        <td>14:30</td>
+    </tr>  
     <tr>
         <td>14:40</td>
         <td>15:00</td>
