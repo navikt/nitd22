@@ -97,7 +97,7 @@ hide_table_of_contents: true
         <td>14:10</td>
         <td>14:20</td>
         <td>Joakim Taule Kartveit <br /> "Eg liker åpen kildekode i NAV" (10 min)</td>
-        <td rowspan="2">Rupinder Kaur Sethi <br /> "Tableau dashboard" (20 min)</td>
+        <td rowspan="2">Rupinder Kaur Sethi <br /> "Visualize with Tableau and the team loves it" (20 min)</td>
         <td rowspan="2">Sturle Helland <br /> "Kvitt deg med teknisk gjeld" (20 min)</td>
     </tr>  
     <tr>
