@@ -8,14 +8,6 @@ sidebar_custom_props:
   track: 3
 ---
 
-## Hvor og når
-📌  spor 3
-
-⏱  10:30-10:50
-
-## Foredragsholder
-Espen || Ivar
-
 
 ## Beskrivelse
 En prate rundt hva som skal til for å få fort gang i overgangen fra on-prem til sky datavarehus.

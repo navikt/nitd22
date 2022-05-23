@@ -8,14 +8,6 @@ sidebar_custom_props:
   track: 3
 ---
 
-## Hvor og når
-📌  spor 3
-
-⏱  10:30-10:50
-
-## Foredragsholder
-Patrick || Ivar
-
 
 ## Beskrivelse
 

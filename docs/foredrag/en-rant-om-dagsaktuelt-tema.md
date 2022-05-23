@@ -8,14 +8,6 @@ sidebar_custom_props:
   track: 1
 ---
 
-## Hvor og når
-📌  spor 1
-
-⏱  10:30-10:50
-
-## Foredragsholder
-Terje Heen
-
 
 ## Beskrivelse
 

@@ -8,14 +8,6 @@ sidebar_custom_props:
   track: 3
 ---
 
-## Hvor og når
-📌  spor 3
-
-⏱  11:30-11:50
-
-## Foredragsholder
-Øystein Bakken
-
 
 ## Beskrivelse
 Et foredrag om Team. Oppbygging, virkemåte, sammensetning, hvordan teamet fungerer, er det et team eller bare en samling individer...

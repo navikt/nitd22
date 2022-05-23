@@ -8,14 +8,6 @@ sidebar_custom_props:
   track: 2
 ---
 
-## Hvor og når
-📌  spor 2
-
-⏱  11:00-11:20
-
-## Foredragsholder
-Louis Dieffenthaler
-
 
 ## Beskrivelse
 
