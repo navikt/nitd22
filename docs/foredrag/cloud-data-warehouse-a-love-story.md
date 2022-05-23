@@ -9,5 +9,5 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
+
 En prate rundt hva som skal til for å få fort gang i overgangen fra on-prem til sky datavarehus.

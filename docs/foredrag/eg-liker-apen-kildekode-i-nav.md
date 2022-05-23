@@ -9,7 +9,6 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
 Det eg vil snakke om er hvofor eg tenker det er så bra at vi i NAV ønsker og satser på å jobbe med åpen kildekode. 
 Og fortelle ein liten historie da eg jobbet med lukket kildekode utenfor NAV og savnet etter åpen kildekode i NAV dukket opp.
 

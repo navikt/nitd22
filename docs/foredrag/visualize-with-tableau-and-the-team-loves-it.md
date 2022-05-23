@@ -8,5 +8,4 @@ sidebar_custom_props:
   track: 2
 ---
 
-## Beskrivelse
 TryggNok brukes for å dokumentere og kommunisere risikovurderinger i NAVs digitale løsninger. Bruk av Tableau for å visuellisere dataene fra TryggNok. 

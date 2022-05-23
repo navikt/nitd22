@@ -8,6 +8,5 @@ sidebar_custom_props:
   track: 3
 ---
 
-## Beskrivelse
 
 Jeg begynte nylig i NAV IT. Den siste tiden hos min forrige arbeidsgiver, Skatteetaten, jobbet jeg mye med helhetlig overvåking og spesielt teknisk sporing/tracing. I denne talken vil jeg fortelle litt om erfaringer fra dette arbeidet (dvs så langt vi nådde før jeg begynte her i NAV). Hvilke behov lå til grunn, hvilke erfaringer vi gjorde inkl kort intro til de tre pilarer for overvåking (logg, trace, metrikker). Jeg vil også si litt om nytten av å se på tvers av "pilarene" og fordeler vi opplevde ved å bruke standarder for å instrumentere overvåkingsdata. (I denne sammenheng W3 sin trace context standard).

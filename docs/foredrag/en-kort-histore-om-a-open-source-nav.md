@@ -9,6 +9,5 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
 Hvorfor begynte vi å open source NAV, hva er coding in the open og hvorfor er det viktig for demokratiet og samfunnsoppdraget vårt?
 

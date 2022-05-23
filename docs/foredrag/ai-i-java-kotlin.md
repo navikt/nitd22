@@ -9,5 +9,4 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
 En intro til maskinlæring i java/kotlin. Viser hvordan man kan bygge en classifier i java/kotlin

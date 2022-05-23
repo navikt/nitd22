@@ -9,5 +9,4 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
 En forklaring på hvorfor digitalisering er så utfordrende https://www.dn.no/kronikk/ledelse/forskning/digitalisering/innlegg-blind-tro-pa-digitalisering-kveler-viktig-kunnskap/2-1-986211

@@ -9,5 +9,4 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
 Et foredrag om Team. Oppbygging, virkemåte, sammensetning, hvordan teamet fungerer, er det et team eller bare en samling individer...

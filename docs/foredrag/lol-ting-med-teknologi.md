@@ -9,7 +9,6 @@ sidebar_custom_props:
 ---
 
 
-## Beskrivelse
 Miniforedrag om morsom bruk av kode til å generere lyd eller musikk.
 Ideen er foreløpig ganske så upolert, men jeg har hatt lyst å ta for meg enten sox (http://sox.sourceforge.net/), et kommandolinjeverktøy for å prosessere lyd, eller TidalCycles (https://tidalcycles.org/docs/), et Haskell-miljø for å drive med ""live coding"" av rytmer og musikalske strukturer.
 

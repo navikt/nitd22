@@ -8,5 +8,5 @@ sidebar_custom_props:
   track: 2
 ---
 
-## Beskrivelse
+
 
