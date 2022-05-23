@@ -1,11 +1,11 @@
 ---
-title: Lol ting med teknologi - tape music på kommandolinjen
+title: Hvordan PDL fungere i dag i NAV
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "12:25"
-  length: 10
-  speakers: Ulrik Halmøy
-  track: 2
+  length: 40
+  speakers: Rituvsh Kumar
+  track: 3
 ---
 
 
