@@ -1,8 +1,17 @@
-# Er psykologisk trygghet bare tull og tøys?
+---
+title: Er psykologisk trygghet bare tull og tøys?
+hide_table_of_contents: true
+sidebar_custom_props:
+  start: "10:30"
+  length: 20
+  speakers: Malaz Alkoj
+  track: 2
+---
 
 ## Hvor og når
-📌  &nbsp; spor 2<br>
-⏱  &nbsp; 10:30-10:50
+📌  spor 2
+
+⏱  10:30-10:50
 
 ## Foredragsholder
 Malaz Alkoj
