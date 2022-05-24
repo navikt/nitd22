@@ -17,7 +17,7 @@ hide_table_of_contents: true
     <tr>
         <td>09:30</td>
         <td>10:20</td>
-        <td className={"textCenter"} colspan="3"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
+        <td className={"textCenter"} colspan="3"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Stay Human</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
     </tr>
     <tr>
         <td>10:20</td>
