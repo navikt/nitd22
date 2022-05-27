@@ -36,7 +36,7 @@ hide_table_of_contents: true
         <td>10:50</td>
         <td>Terje Heen <br /> "En rant om dagsakutelt tema" (20 min)</td>
         <td>Malaz Alkoj <br /> "Er psykologisk trygghet bare tull og tøys?" (20 min)</td>
-        <td>Patrick || Ivar <br /> "Erfaringer med dbt" (20 min)</td>
+        <td>Espen Holtebur <br /> "#dbt_i_NAV Erfaringer med dbt" (20 min)</td>
     </tr>
     <tr>
         <td>11:00</td>
