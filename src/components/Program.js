@@ -209,8 +209,10 @@ function EventCell({ event }) {
 
   return (
     <td>
-      {formatLength(event.length)} <b>{formatSpeakers(event.speakers)}</b>:{" "}
-      <a href={event.href}>{event.label}</a>
+      <span className={styles.eventSpeaker}>
+        {formatSpeakers(event.speakers)}
+      </span>
+      <a href={event.href}>{formatLength(event.length) + " " + event.label}</a>
     </td>
   );
 }

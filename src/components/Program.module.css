@@ -15,3 +15,8 @@
 .pauseDescription {
     font-style: italic;
 }
+
+.eventSpeaker {
+    display: block;
+    font-weight: 600;
+}
