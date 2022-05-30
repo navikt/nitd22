@@ -1,5 +1,5 @@
 ---
-title: Egenskaper til dysfunksjonelle Team
+title: Dysfunksjonelle Team
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "10:30"
