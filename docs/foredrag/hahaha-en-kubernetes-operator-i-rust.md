@@ -8,4 +8,4 @@ sidebar_custom_props:
   track: 2
 ---
 
-En historie om Kubernetes, Naisjobs, et namespace som fyltes opp av Pods, og et hobbyprosjekt som nå har ansvar for ca. 7000 Pods per måned i produksjon
+En historie om Kubernetes, Naisjobs, et namespace som fyltes opp av Pods, og et hobbyprosjekt som nå har ansvar for ca. 7000 Pods per måned i produksjon.
