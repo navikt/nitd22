@@ -30,7 +30,7 @@ function mapItem(item) {
 function formatMinutes(totalMinutes) {
     const hours = ~~(totalMinutes / 60);
     const minutes = totalMinutes % 60;
-    return `${hours}.${minutes}`;
+    return `${hours.toString().padStart(2, "0")}.${minutes.toString().padStart(2, "0")}`;
 }
 
 function formatTime(startTime, length) {
