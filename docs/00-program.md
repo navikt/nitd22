@@ -109,19 +109,9 @@ hide_table_of_contents: true
         <td>15:00</td>
         <td className={"textCenter"} colspan="3"><strong>SLUTT KEYNOTE:</strong> <br /> Vegard Storstad</td>
     </tr>
+        <tr>
+        <td>15:00</td>
+        <td></td>
+        <td className={"textCenter"} colspan="3">Veien går videre til <a href="https://www.beerpalace.no/">Beer Palace</a> rett rundt hjørnet!</td>
+    </tr>
 </table>
-
-## 🍻 Sosialt opplegg på kvelden 🍻
-For de som ønsker å mingle etter konferansen bookes det bord i nærheten av Felix. Mer info om hvor og når kommer!
-
-## 💡 Har du forslag til tema? 
-
-Flott! 😃 Send inn forslaget ditt i [skjemaet](https://forms.office.com/Pages/ResponsePage.aspx?id=NGU2YsMeYkmIaZtVNSedCyKMKHMBvzVPtRUZDMBRSnxUQzVXMTE2NFlFN0ZDMDlER0NRNzNNSDZKWi4u) vi har laget.
-
-## 🎙 Har du selv lyst til å dele?
-
-Fantastisk! 🤩 Send det også inn i [skjemaet](https://forms.office.com/Pages/ResponsePage.aspx?id=NGU2YsMeYkmIaZtVNSedCyKMKHMBvzVPtRUZDMBRSnxUQzVXMTE2NFlFN0ZDMDlER0NRNzNNSDZKWi4u)!
-
-## 🤔 Har du andre spørsmål?
-
-Du er sikkert ikke alene! Still gjerne spørsmål i Slack-kanalen [#nitd22](https://nav-it.slack.com/archives/C03A11UFPK5).
