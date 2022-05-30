@@ -3,7 +3,7 @@ title: Så sykt urettferdig! Hvordan kan vi være sikre på at maskinlæringsmod
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "12:25"
-  length: 20
+  length: 40
   speakers: Robindra Prabhu 
   track: 1
 ---

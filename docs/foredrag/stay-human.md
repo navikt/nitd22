@@ -1,5 +1,5 @@
 ---
-title: Design og produktutvikling
+title: Stay Human
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "09:45"
@@ -8,5 +8,4 @@ sidebar_custom_props:
   track: 1
 ---
 
-
-
+Keynote

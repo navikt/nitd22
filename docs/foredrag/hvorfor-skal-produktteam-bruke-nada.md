@@ -9,3 +9,6 @@ sidebar_custom_props:
 ---
 
 
+Å behandle data som produkter kommer ikke gratis. Mye av innsalget for at team skal gjøre dette, har vært at data skal deles på en bedre måte -- altså at NAV som helhet skal bruke data bedre igjen.
+
+Hva med teamet selv? Hvorfor skal produktteam selv bruke nada-plattformen?
