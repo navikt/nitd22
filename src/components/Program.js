@@ -91,7 +91,7 @@ export default function ProgramPage() {
   const events = [...getEvents()];
 
   events.sort((a, b) =>
-    a.startMinutes > b.startMinutes ? -1 : a.startMinutes === b.startMinutes ? 1 : 0
+    a.startMinutes > b.startMinutes ? 1 : a.startMinutes === b.startMinutes ? 0 : -1
   );
 
   return (
