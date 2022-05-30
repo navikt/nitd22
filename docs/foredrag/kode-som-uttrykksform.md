@@ -9,7 +9,4 @@ sidebar_custom_props:
 ---
 
 
-Miniforedrag om morsom bruk av kode til å generere lyd eller musikk.
-Ideen er foreløpig ganske så upolert, men jeg har hatt lyst å ta for meg enten sox (http://sox.sourceforge.net/), et kommandolinjeverktøy for å prosessere lyd, eller TidalCycles (https://tidalcycles.org/docs/), et Haskell-miljø for å drive med ""live coding"" av rytmer og musikalske strukturer.
-
-Det har ikke så mye med NAV å gjøre, men jeg synes det hadde vært morsomt å vise frem litt alternative måter å anvende kodeskriving på. Kanskje man kunne fått et lite algoritmisk husband i NAV IT på sikt :'-)
+Foredraget handler om hvordan man kan bruke TidalCycles, et programmeringsmiljø i Haskell, til å lage musikalske uttrykk med kode og hvorfor du burde installere det med det samme
