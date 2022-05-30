@@ -1,5 +1,6 @@
 import React from "react";
 import { useCurrentSidebarCategory } from "@docusaurus/theme-common";
+import styles from './Program.module.css';
 
 function getEvents() {
   const { items } = useCurrentSidebarCategory();
@@ -48,7 +49,7 @@ function formatTrack(track) {
     if (!track) return "?";
     const rooms = {
       1: "Storsalen",
-      2: "Norges brannkassse",
+      2: "Brannkassse",
       3: "Norden"
     }
     return rooms[track] || `Rom ${track}`
@@ -73,7 +74,7 @@ function EventList({ events }) {
       <tbody>
         {events.map((event) => (
           <tr key={event.docId}>
-            <td>{formatTime(event.startTime, event.length)}</td>
+            <td className={styles.timeCell}>{formatTime(event.startTime, event.length)}</td>
             <td>{formatTrack(event.track)}</td>
             <td>
               <a href={event.href}>{event.label}</a>
