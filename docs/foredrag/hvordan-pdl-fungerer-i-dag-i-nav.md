@@ -3,14 +3,12 @@ title: Hvordan PDL fungere i dag i NAV
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "12:25"
-  length: 40
+  length: 45
   speakers: Rituvsh Kumar
   track: 3
 ---
 
 
 
-Miniforedrag om morsom bruk av kode til å generere lyd eller musikk.
-Ideen er foreløpig ganske så upolert, men jeg har hatt lyst å ta for meg enten sox (http://sox.sourceforge.net/), et kommandolinjeverktøy for å prosessere lyd, eller TidalCycles (https://tidalcycles.org/docs/), et Haskell-miljø for å drive med ""live coding"" av rytmer og musikalske strukturer.
-
-Det har ikke så mye med NAV å gjøre, men jeg synes det hadde vært morsomt å vise frem litt alternative måter å anvende kodeskriving på. Kanskje man kunne fått et lite algoritmisk husband i NAV IT på sikt :'-)
+Hvordan PDL fungere i dag i NAV? 
+Jeg skal forklare hvordan PDL skal fungere. Jeg skal vise forskjellig tjenester fra PDL. Jeg skal også vise hvordan dere kan bruke ulike tjenester fra PDL. Hvis vi vil ha tid så kan jeg også vise demo av PDL-API, PDL-WEB, GraphQL, ElasticSøk, MongoDB osv.

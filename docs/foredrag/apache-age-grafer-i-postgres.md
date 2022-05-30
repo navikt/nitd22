@@ -1,5 +1,5 @@
 ---
-title: Apache Age - PostGreSql som grafdatabase
+title: Apache Age - Grafer i PostGres
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "13:40"

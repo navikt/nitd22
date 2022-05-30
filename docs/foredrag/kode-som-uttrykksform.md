@@ -1,5 +1,5 @@
 ---
-title: Lol ting med teknologi - tape music på kommandolinjen
+title: Kode som uttrykksform - live-koding av musikk i Haskell
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "12:25"

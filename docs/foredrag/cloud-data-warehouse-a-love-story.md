@@ -10,4 +10,4 @@ sidebar_custom_props:
 
 
 
-En prate rundt hva som skal til for å få fort gang i overgangen fra on-prem til sky datavarehus.
+En prat rundt hva som skal til for å få fort gang i overgangen fra on-prem til sky datavarehus.

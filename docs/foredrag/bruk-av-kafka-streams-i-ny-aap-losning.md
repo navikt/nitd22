@@ -1,5 +1,5 @@
 ---
-title: Bruk av kafka streams i ny AAP løsning
+title: Kafka Streams og hvordan vi bruker det i ny løsning for AAP
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "11:00"

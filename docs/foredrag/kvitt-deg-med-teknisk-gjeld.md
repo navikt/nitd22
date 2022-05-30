@@ -1,5 +1,5 @@
 ---
-title: Kvitt deg med teknisk gjeld
+title: Kvitt deg med den tekniskegjelden da, en gang for alle
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "14:10"
