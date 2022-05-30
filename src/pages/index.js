@@ -56,9 +56,9 @@ function OpeningCountdown({ startTimeMs }) {
 
   const str = parts.filter((p) => p.val > 0).map((p) => `${p.val} ${p.txt}`).join(', ');
   
-  return (
+  return msLeft > 0 ? (
     <span>Dørene åpner om {str}!</span>
-  )
+  ) : <span>Døren er åpne!</span>
 }
 
 export default function Home() {
