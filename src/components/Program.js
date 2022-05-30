@@ -261,12 +261,12 @@ function SlotRows({ slot }) {
           )}
           {tracks.map(
             (track, idx) =>
-              slot.tracks[track] && (
+              slot.tracks[track] && slot.tracks[track][rowIdx] ? (
                 <EventCell
                   key={rowIdx + "_" + idx}
                   event={slot.tracks[track][rowIdx]}
                 />
-              )
+              ) : <td></td>
           )}
         </tr>
       ))}
