@@ -4,9 +4,10 @@ hide_table_of_contents: true
 ---
 
 ```mdx-code-block
+import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
 import Program from '../../src/components/Program'
 
 <div>
-  <Program/>
+  <Program items={useCurrentSidebarCategory().items} />
 </div>
 ```

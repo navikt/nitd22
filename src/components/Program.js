@@ -2,46 +2,50 @@ import React from "react";
 import { useCurrentSidebarCategory } from "@docusaurus/theme-common";
 import styles from "./Program.module.css";
 
-const pauses = [
-  {
-    startTime: "09:00",
-    length: 30,
-    title: "Velkommen",
-    description: "Mingling og lett servering",
-  },
-  {
-    startTime: "10:20",
-    length: 10,
-    title: "Pause",
-    description: "Kort pause",
-  },
-  {
-    startTime: "11:50",
-    length: 35,
-    title: "Lunsj",
-    description: "Varm- og kald mat buffet",
-  },
-  {
-    startTime: "13:05",
-    length: 35,
-    title: "Pause",
-    description: "Dessert, kake, kaffe/te",
-  },
-  {
-    startTime: "15:00",
-    length: (24 - 15) * 60 - 1,
-    title: "Sosialt",
-    description: "Veien går videre til Beer Palace, rett rundt hjørnet!",
-  },
-].map((pause) => {
-  const [hours, minutes] = (pause.startTime || "00:00")
-    .split(/:|\./, 2)
-    .map((str) => parseInt(str.trim(), 10));
-  const startMinutes = minutes + hours * 60;
-  const endMinutes = startMinutes + pause.length;
+function getPauses() {
+  const pauses = [
+    {
+      startTime: "09:00",
+      length: 30,
+      title: "Velkommen",
+      description: "Mingling og lett servering",
+    },
+    {
+      startTime: "10:20",
+      length: 10,
+      title: "Pause",
+      description: "Kort pause",
+    },
+    {
+      startTime: "11:50",
+      length: 35,
+      title: "Lunsj",
+      description: "Varm- og kald mat buffet",
+    },
+    {
+      startTime: "13:05",
+      length: 35,
+      title: "Pause",
+      description: "Dessert, kake, kaffe/te",
+    },
+    {
+      startTime: "15:00",
+      length: (24 - 15) * 60 - 1,
+      title: "Sosialt",
+      description: "Veien går videre til Beer Palace, rett rundt hjørnet!",
+    },
+  ].map((pause) => {
+    const [hours, minutes] = (pause.startTime || "00:00")
+      .split(/:|\./, 2)
+      .map((str) => parseInt(str.trim(), 10));
+    const startMinutes = minutes + hours * 60;
+    const endMinutes = startMinutes + pause.length;
 
-  return { pause: true, startMinutes, endMinutes, ...pause };
-});
+    return { pause: true, startMinutes, endMinutes, ...pause };
+  });
+
+  return pauses;
+}
 
 function intersects(slotA, slotB) {
   const aStart = slotA.startMinutes,
@@ -110,8 +114,7 @@ function getSlotsByEvents(events) {
   return merged;
 }
 
-function getEvents() {
-  const { items } = useCurrentSidebarCategory();
+function getEvents(items) {
   return items.map(mapItem);
 }
 
@@ -222,19 +225,22 @@ function SlotRows({ slot }) {
     ...Object.values(slot.tracks).map((track) => track.length)
   );
   const tracks = [1, 2, 3];
+  const rowArray = [...Array(rows)].fill(0);
 
   if (slot.events[0]?.pause) {
     const pause = slot.events[0];
     return (
-      <tr className={styles.pauseRow}>
-        <td className={styles.timeCell}>
-          {formatTime(slot.startMinutes, slot.endMinutes)}
-        </td>
-        <td colSpan={tracks.length}>
-          <span className={styles.pauseTitle}>{pause.title}</span>
-          <span className={styles.pauseDescription}>{pause.description}</span>
-        </td>
-      </tr>
+      <>
+        <tr className={styles.pauseRow}>
+          <td className={styles.timeCell}>
+            {formatTime(slot.startMinutes, slot.endMinutes)}
+          </td>
+          <td colSpan={tracks.length}>
+            <span className={styles.pauseTitle}>{pause.title}</span>
+            <span className={styles.pauseDescription}>{pause.description}</span>
+          </td>
+        </tr>
+      </>
     );
   }
 
@@ -243,20 +249,24 @@ function SlotRows({ slot }) {
       <tr>
         <td></td>
         {tracks.map((track) => (
-          <th>{formatTrack(track)}</th>
+          <th key={track}>{formatTrack(track)}</th>
         ))}
       </tr>
-      {[...new Array(rows)].map((_, rowIdx) => (
-        <tr>
-          {rowIdx === 0 ? (
+      {rowArray.map((rowNum, rowIdx) => (
+        <tr key={rowIdx}>
+          {rowIdx === 0 && (
             <td rowSpan={rows} className={styles.timeCell}>
               {formatTime(slot.startMinutes, slot.endMinutes)}
             </td>
-          ) : null}
-          {tracks.map((track) =>
-            slot.tracks[track] ? (
-              <EventCell event={slot.tracks[track][rowIdx]} />
-            ) : null
+          )}
+          {tracks.map(
+            (track, idx) =>
+              slot.tracks[track] && (
+                <EventCell
+                  key={rowIdx + "_" + idx}
+                  event={slot.tracks[track][rowIdx]}
+                />
+              )
           )}
         </tr>
       ))}
@@ -268,16 +278,16 @@ function SlotOverview({ slots }) {
   return (
     <table>
       <tbody>
-        {slots.map((slot) => (
-          <SlotRows slot={slot} />
+        {slots.map((slot, idx) => (
+          <SlotRows key={idx} slot={slot} />
         ))}
       </tbody>
     </table>
   );
 }
 
-export default function ProgramPage() {
-  const events = [...getEvents(), ...pauses];
+export default function ProgramPage({ items }) {
+  const events = [...getEvents(items), ...getPauses()];
   events.sort((a, b) =>
     a.startMinutes > b.startMinutes
       ? 1
