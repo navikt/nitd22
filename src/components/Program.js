@@ -17,11 +17,13 @@ function mapItem(item) {
 
   const [hours, minutes] = (startTime || "00:00").split(/:|\./, 2).map(str => parseInt(str.trim(), 10));
   const startMinutes = minutes + hours * 60;
+  const endMinutes = startMinutes + length;
 
   return {
     ...item,
     startTime,
     startMinutes,
+    endMinutes,
     length,
     speakers,
     track
@@ -34,12 +36,8 @@ function formatMinutes(totalMinutes) {
     return `${hours.toString().padStart(2, "0")}.${minutes.toString().padStart(2, "0")}`;
 }
 
-function formatTime(startTime, length) {
-    if (!startTime) return "?";
-    const [hours, minutes] = startTime.split(/:|\./, 2).map(str => parseInt(str.trim(), 10));
-    const startMinutes = minutes + hours * 60;
-    const endMinutes = startMinutes + length;
-
+function formatTime(startMinutes, endMinutes) {
+    if (!startMinutes || !endMinutes) return "?";
     const startStr = formatMinutes(startMinutes);
     const endStr = formatMinutes(endMinutes);
     return `${startStr}–${endStr}`
@@ -74,7 +72,7 @@ function EventList({ events }) {
       <tbody>
         {events.map((event) => (
           <tr key={event.docId}>
-            <td className={styles.timeCell}>{formatTime(event.startTime, event.length)}</td>
+            <td className={styles.timeCell}>{formatTime(event.startMinutes, event.endMinutes)}</td>
             <td>{formatTrack(event.track)}</td>
             <td>
               <a href={event.href}>{event.label}</a>
