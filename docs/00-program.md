@@ -17,7 +17,7 @@ hide_table_of_contents: true
     <tr>
         <td>09:30</td>
         <td>10:20</td>
-        <td className={"textCenter"} colspan="3"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Design og produktutvikling</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
+        <td className={"textCenter"} colspan="3"><strong>KEYNOTE</strong>: <br /> Fredrik Scheide: <i>Stay Human</i> <br /> Tor Sporsem: <i>Digitalisering kveler viktig kunnskap</i></td>
     </tr>
     <tr>
         <td>10:20</td>
@@ -36,7 +36,7 @@ hide_table_of_contents: true
         <td>10:50</td>
         <td>Terje Heen <br /> "En rant om dagsakutelt tema" (20 min)</td>
         <td>Malaz Alkoj <br /> "Er psykologisk trygghet bare tull og tøys?" (20 min)</td>
-        <td>Patrick || Ivar <br /> "Erfaringer med dbt" (20 min)</td>
+        <td>Espen Holtebu <br /> "#dbt_i_NAV Erfaringer med dbt" (20 min)</td>
     </tr>
     <tr>
         <td>11:00</td>
@@ -67,7 +67,7 @@ hide_table_of_contents: true
         <td>12:25</td>
         <td>12:35</td>
         <td rowspan="2">Robindra Prabhu - "(u)Rettferdig maskinlæringsmodell i prediksjon for sykefraværsvarighet" (20 min)</td>
-        <td>Ulrik Halmøy <br /> "Lol ting med teknologi: tape music på kommandolinjen" (10 min)</td>
+        <td>Ulrik Halmøy <br /> "Kode som uttrykksform: live-koding av musikk i Haskell" (10 min)</td>
         <td rowspan="4">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV" (?)</td>
     </tr>
     <tr>
@@ -97,7 +97,7 @@ hide_table_of_contents: true
         <td>14:10</td>
         <td>14:20</td>
         <td>Joakim Taule Kartveit <br /> "Eg liker åpen kildekode i NAV" (10 min)</td>
-        <td rowspan="2">Rupinder Kaur Sethi <br /> "Tableau dashboard" (20 min)</td>
+        <td rowspan="2">Rupinder Kaur Sethi <br /> "Visualize with Tableau and the team loves it" (20 min)</td>
         <td rowspan="2">Sturle Helland <br /> "Kvitt deg med teknisk gjeld" (20 min)</td>
     </tr>  
     <tr>
