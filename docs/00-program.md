@@ -68,7 +68,7 @@ hide_table_of_contents: true
         <td>12:35</td>
         <td rowspan="2">Robindra Prabhu - "(u)Rettferdig maskinlæringsmodell i prediksjon for sykefraværsvarighet" (20 min)</td>
         <td>Ulrik Halmøy <br /> "Kode som uttrykksform: live-koding av musikk i Haskell" (10 min)</td>
-        <td rowspan="4">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV" (?)</td>
+        <td rowspan="4">Rituvsh Kumar <br /> "Hvordan PDL fungere i dag i NAV" (40 min)</td>
     </tr>
     <tr>
         <td>12:40</td>
