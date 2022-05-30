@@ -4,7 +4,7 @@ hide_table_of_contents: true
 sidebar_custom_props:
   start: "12:25"
   length: 10
-  speakers: Ulrik Halmøy
+  speakers: Ulrik Antoniussen Halmøy
   track: 2
 ---
 
