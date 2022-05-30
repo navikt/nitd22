@@ -46,7 +46,12 @@ function formatTime(startTime, length) {
 
 function formatTrack(track) {
     if (!track) return "?";
-    return `Rom ${track}`
+    const rooms = {
+      1: "Storsalen",
+      2: "Norges brannkassse",
+      3: "Norden"
+    }
+    return rooms[track] || `Rom ${track}`
 }
 
 function formatSpeakers(speakers) {
