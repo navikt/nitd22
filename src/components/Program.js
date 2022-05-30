@@ -2,6 +2,47 @@ import React from "react";
 import { useCurrentSidebarCategory } from "@docusaurus/theme-common";
 import styles from "./Program.module.css";
 
+const pauses = [
+  {
+    startTime: "09:00",
+    length: 30,
+    title: "Velkommen",
+    description: "Mingling og lett servering",
+  },
+  {
+    startTime: "10:20",
+    length: 10,
+    title: "Pause",
+    description: "Kort pause",
+  },
+  {
+    startTime: "11:50",
+    length: 35,
+    title: "Lunsj",
+    description: "Varm- og kald mat buffet",
+  },
+  {
+    startTime: "13:05",
+    length: 35,
+    title: "Pause",
+    description: "Dessert, kake, kaffe/te",
+  },
+  {
+    startTime: "15:00",
+    length: (24 - 15) * 60 - 1,
+    title: "Sosialt",
+    description: "Veien går videre til Beer Palace, rett rundt hjørnet!",
+  },
+].map((pause) => {
+  const [hours, minutes] = (pause.startTime || "00:00")
+    .split(/:|\./, 2)
+    .map((str) => parseInt(str.trim(), 10));
+  const startMinutes = minutes + hours * 60;
+  const endMinutes = startMinutes + pause.length;
+
+  return { pause: true, startMinutes, endMinutes, ...pause };
+});
+
 function intersects(slotA, slotB) {
   const aStart = slotA.startMinutes,
     aEnd = slotA.endMinutes,
@@ -174,11 +215,26 @@ function EventCell({ event }) {
   );
 }
 
-function SlotRows({ slot, keynote }) {
+function SlotRows({ slot }) {
   const rows = Math.max(
     ...Object.values(slot.tracks).map((track) => track.length)
   );
   const tracks = [1, 2, 3];
+
+  if (slot.events[0]?.pause) {
+    const pause = slot.events[0];
+    return (
+      <tr className={styles.pauseRow}>
+        <td className={styles.timeCell}>
+          {formatTime(slot.startMinutes, slot.endMinutes)}
+        </td>
+        <td colSpan={tracks.length}>
+          <span className={styles.pauseTitle}>{pause.title}</span>
+          <span className={styles.pauseDescription}>{pause.description}</span>
+        </td>
+      </tr>
+    );
+  }
 
   return (
     <>
@@ -191,7 +247,7 @@ function SlotRows({ slot, keynote }) {
       {[...new Array(rows)].map((_, rowIdx) => (
         <tr>
           {rowIdx === 0 ? (
-            <td rowSpan={rows}>
+            <td rowSpan={rows} className={styles.timeCell}>
               {formatTime(slot.startMinutes, slot.endMinutes)}
             </td>
           ) : null}
@@ -219,7 +275,7 @@ function SlotOverview({ slots }) {
 }
 
 export default function ProgramPage() {
-  const events = [...getEvents()];
+  const events = [...getEvents(), ...pauses];
   events.sort((a, b) =>
     a.startMinutes > b.startMinutes
       ? 1
