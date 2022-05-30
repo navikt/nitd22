@@ -53,10 +53,7 @@ function intersects(slotA, slotB) {
     bStart = slotB.startMinutes,
     bEnd = slotB.endMinutes;
 
-  return (
-    (aStart <= bStart && aEnd <= bEnd && aEnd > bStart) ||
-    (aStart >= bStart && aStart < bEnd)
-  );
+  return aStart <= bEnd && aEnd >= bStart;
 }
 
 function mergeSlots(slots) {
@@ -65,18 +62,23 @@ function mergeSlots(slots) {
   do {
     modifications = 0;
     current.forEach((slot, currentIndex) => {
+      if (slot.events[0].pause) return;
+
       for (let i = currentIndex + 1; i < current.length; i++) {
         const otherSlot = current[i];
-        if (!otherSlot.obsolete && intersects(slot, otherSlot)) {
-          slot.events.push(...otherSlot.events);
-          slot.startMinutes = Math.min(
-            slot.startMinutes,
-            otherSlot.startMinutes
-          );
-          slot.endMinutes = Math.max(slot.endMinutes, otherSlot.endMinutes);
-          otherSlot.obsolete = true;
-          modifications++;
+        if (
+          otherSlot.obsolete ||
+          otherSlot.events[0].pause ||
+          !intersects(slot, otherSlot)
+        ) {
+          continue;
         }
+
+        slot.events.push(...otherSlot.events);
+        slot.startMinutes = Math.min(slot.startMinutes, otherSlot.startMinutes);
+        slot.endMinutes = Math.max(slot.endMinutes, otherSlot.endMinutes);
+        otherSlot.obsolete = true;
+        modifications++;
       }
     });
 
@@ -207,11 +209,11 @@ function EventList({ events }) {
   );
 }
 
-function EventCell({ event }) {
+function EventCell({ event, rowSpan }) {
   if (!event) return null;
 
   return (
-    <td>
+    <td rowSpan={rowSpan}>
       <span className={styles.eventSpeaker}>
         {formatSpeakers(event.speakers)}
       </span>
@@ -259,14 +261,18 @@ function SlotRows({ slot }) {
               {formatTime(slot.startMinutes, slot.endMinutes)}
             </td>
           )}
-          {tracks.map(
-            (track, idx) =>
-              slot.tracks[track] && slot.tracks[track][rowIdx] ? (
-                <EventCell
-                  key={rowIdx + "_" + idx}
-                  event={slot.tracks[track][rowIdx]}
-                />
-              ) : <td></td>
+          {tracks.map((track, idx) =>
+            slot.tracks[track] && slot.tracks[track][rowIdx] ? (
+              <EventCell
+                key={rowIdx + "_" + idx}
+                event={slot.tracks[track][rowIdx]}
+                rowSpan={
+                  slot.tracks[track][rowIdx + 1] ? undefined : rows - rowIdx
+                }
+              />
+            ) : rowIdx < 1 ? (
+              <td key={rowIdx + "_" + idx}></td>
+            ) : null
           )}
         </tr>
       ))}
