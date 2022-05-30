@@ -289,7 +289,6 @@ export default function ProgramPage() {
   return (
     <>
       <SlotOverview slots={slots} />
-      <EventList events={events} />
     </>
   );
 }
