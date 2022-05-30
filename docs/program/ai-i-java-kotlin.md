@@ -1,5 +1,5 @@
 ---
-title: AI i java/kotlin
+title: AI for Alle
 hide_table_of_contents: true
 sidebar_custom_props:
   start: "12:55"
@@ -8,5 +8,4 @@ sidebar_custom_props:
   track: 1
 ---
 
-
-En intro til maskinlæring i java/kotlin. Viser hvordan man kan bygge en classifier i java/kotlin
+En introduksjon til maskinlæring i kotlin...
