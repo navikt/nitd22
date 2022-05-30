@@ -14,12 +14,11 @@ function HomepageHeader() {
       <div className="container">
         <h1 className={clsx("hero__title", styles.heroText)}>{siteConfig.tagline} 2022</h1>
         <p className={clsx("hero__subtitle", styles.heroText)}><OpeningCountdown startTimeMs={conferenceStart} /></p>
-        <p className={clsx("hero__subtitle", styles.heroText)}>Har du forslag til innhold, eller kan du tenke deg å prate selv?</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://forms.office.com/Pages/ResponsePage.aspx?id=NGU2YsMeYkmIaZtVNSedCyKMKHMBvzVPtRUZDMBRSnxUQzVXMTE2NFlFN0ZDMDlER0NRNzNNSDZKWi4u">
-              Send inn forslag til foredrag 🎉
+            to="/docs/program">
+              Se program 🎉
           </Link>
         </div>
       </div>

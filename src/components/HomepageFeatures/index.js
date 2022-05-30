@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Fra morgen til kveld,<br />
+        Fra 09.00 til 15.00,<br />
         31. mai 2022
       </>
     ),

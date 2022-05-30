@@ -51,6 +51,11 @@ const config = {
             label: "Program 🎪",
           },
           {
+            href: "/docs/faq",
+            position: "left",
+            label: "FAQ❓",
+          },
+          {
             href: "https://nav-it.slack.com/archives/C03A11UFPK5",
             position: "right",
             label: "Slack-kanal"
