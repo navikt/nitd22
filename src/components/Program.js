@@ -177,7 +177,7 @@ function formatSpeakers(speakers) {
 function formatLength(length) {
   if (length <= 10) return "⚡️";
   if (length <= 20) return "🚤";
-  return "🐌";
+  return "⛵️";
 }
 
 function EventList({ events }) {
