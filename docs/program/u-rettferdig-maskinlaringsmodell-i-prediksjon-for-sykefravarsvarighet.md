@@ -2,7 +2,7 @@
 title: Så sykt urettferdig! Hvordan kan vi være sikre på at maskinlæringsmodellene vi utvikler i NAV ikke diskriminerer?
 hide_table_of_contents: true
 sidebar_custom_props:
-  start: "12:25"
+  start: "12:45"
   length: 40
   speakers: Robindra Prabhu 
   track: 1

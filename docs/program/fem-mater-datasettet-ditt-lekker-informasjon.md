@@ -2,7 +2,7 @@
 title: Fem måter datasettet ditt lekker informasjon
 hide_table_of_contents: true
 sidebar_custom_props:
-  start: "12:55"
+  start: "13:15"
   length: 10
   speakers: Jacob Sjødin
   track: 2

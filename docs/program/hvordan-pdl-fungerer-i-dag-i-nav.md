@@ -2,7 +2,7 @@
 title: Hvordan PDL fungere i dag i NAV
 hide_table_of_contents: true
 sidebar_custom_props:
-  start: "12:25"
+  start: "12:45"
   length: 45
   speakers: Rituvesh Kumar
   track: 3

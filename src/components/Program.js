@@ -23,8 +23,8 @@ function getPauses() {
       description: "Varm- og kald mat buffet",
     },
     {
-      startTime: "13:05",
-      length: 35,
+      startTime: "13:25",
+      length: 15,
       title: "Pause",
       description: "Dessert, kake, kaffe/te",
     },

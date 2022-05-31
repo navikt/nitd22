@@ -2,7 +2,7 @@
 title: HAHAHA, en Kubernetes operator i Rust
 hide_table_of_contents: true
 sidebar_custom_props:
-  start: "12:40"
+  start: "13:00"
   length: 10
   speakers: Kent Daleng
   track: 2
