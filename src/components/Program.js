@@ -162,9 +162,9 @@ function formatTime(startMinutes, endMinutes) {
 function formatTrack(track) {
   if (!track) return "?";
   const rooms = {
-    1: "Storsalen",
-    2: "Brannkassse",
-    3: "Norden",
+    1: "Storsalen / Felix 1",
+    2: "Brannkassse (etg. K3)",
+    3: "Norden (etg. K3)",
   };
   return rooms[track] || `Rom ${track}`;
 }
